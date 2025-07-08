@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+ 
+}
+body{
+    background-image: url(/pic/homepic.jpg);
+    background-size: cover;
+    
+}
+.outer{
+     background-color: rgba(255,255,255, 0.5);
+    width: 400px;
+    height: 550px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    left: 400px;
+    
+}
+.h{
+    text-align: center;
+    
+    
+} 
+h2{
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+     border-radius: 5px;
+
+}
+h3{
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+    border-radius: 5px;
+    position: relative;
+    top: 3px;
+}
+.cont{
+    text-align: center;
+    margin-top: 30px;
+    
+} 
+.b1{
+    box-shadow: 0 0 8px rgb(0, 0, 0); 
+    background-color: rgba(0,0,0, 0.3);
+    width: 70pxpx;
+    height: 35px;
+    border-radius: 10px; 
+    position: relative;
+    left: 10px;
+    color: white;
+}
+.cont input {
+    padding: 10px; 
+    border-radius: 10px;
+    background-color: rgba(0,0,0, 0.3);
+    margin-top: 30px; 
+    color: white;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
+
+}
+label{
+     box-shadow: 0 0 8px rgb(0, 0, 0); 
+    background-color: rgba(0,0,0, 0.3);  
+    padding: 10px;  
+     color: white;
+    border-radius: 10px; 
+    position: relative; 
+    right: 35px;  
+    text-align: justify; 
+} 
+#pounds {
+    position: relative;
+    right: 30px;
+}
+#gram{
+    position: relative;
+    right: 30px;
+}
+#milli{
+    position: relative;
+    right: 30px; 
+}
+#uston{
+    position: relative;
+    right: 30px; 
+}
+.l1{
+    position: relative; 
+    right: 63px;
+    padding-right: 20px;
+}
+.l2{
+    position: relative; 
+    right: 63px;
+    padding-right: 30px;
+}
+.l3{
+    position: relative; 
+    right: 58px;
+    padding-right: 1px;
+}
+.l4{
+    position: relative; 
+    right: 60px;
+    padding-right: 20px;
+}
+.b2{
+    box-shadow: 0 0 8px rgb(0, 0, 0); 
+    background-color: rgba(0,0,0, 0.3);
+    width: 90%;
+    height: 35px;
+    border-radius: 10px; 
+    position: relative;
+    top: 20px;
+    color: white;
+}
+#kilo{
+    color: white;
+}

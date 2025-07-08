@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body >
+    <div class="outer">
+        
+        <form action="#" id="forme">
+           <div class="h">
+              <h2> wellcom to online wight converter</h2>
+              <h3>converter</h3>
+           </div>
+        <div class="cont">
+            <label for="kilo">kilogram</label>
+            <input type="text" id="kilo" placeholder="Enter kg">
+            <button type="convert" class="b1" onclick="wightCalculator(document.getElementById('kilo').value)">Convert</button>
+             <br>
+             <label for="pounds" class="l1">pounds </label>
+             <input type="" id="pounds" placeholder="">
+              <br>
+             <label for="gram" class="l2">Gram</label>
+             <input type="" id="gram" placeholder="">
+               <br>
+             <label for="milli" class="l3">Milli Gram</label>
+             <input type="" id="milli" placeholder="">
+                <br>
+             <label for="uston" class="l4">Us Ton</label>
+             <input type="" id="uston" placeholder="">
+                 <br>
+                 <button type="reset" class="b2" onclick="forReset()">Reset</button>
+        </div>
+
+
+        </form>
+
+    </div>
+
+
+    <script src="form.js"></script>
+</body>
+</html>
